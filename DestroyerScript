@@ -1,0 +1,14 @@
+using System.Collections; 
+using System.Collections.Generic;
+using UnityEngine;
+// MOUSENİN TIKLAMA EFEKTİNİ YOK ETMEK İÇİN
+public class Destroyer : MonoBehaviour
+{
+    public float time;
+    void Start()
+    {
+        Destroy(this.gameObject,time);
+    }
+
+
+}
